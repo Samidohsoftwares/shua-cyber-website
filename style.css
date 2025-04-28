@@ -1,0 +1,106 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar{
+  background-color: aqua;
+}
+
+.container1{
+        margin-top: 80px; 
+        margin-left: 0.5rem;
+        background-color: antiquewhite;
+      }
+
+
+.container{
+  background-color: rgb(27, 233, 233);
+  box-shadow: 0 8px 16px rgba(247, 16, 162, 0.9);
+  border-radius: 20px;
+  }
+
+.container h1{
+  font-size: 1.5rem;
+  color: rgb(244, 15, 46);
+  font-weight: 700;
+}
+      
+.image1{
+  border: 10px solid red;
+}
+
+.image1:hover{
+  transform: rotate(360deg);
+  transition: 0.5s ease-in-out;
+}
+
+.nav-item a{
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 18px;
+  margin: 20px;
+  color: #f51393;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 150px;
+  text-align: center;
+}
+
+.nav-item a:hover{
+  background-color: #42e248;
+}
+
+.navbar-brand {
+  font-family: 'Poppins', sans-serif; 
+  color: #ea1017;
+  font-weight: bold;
+  font-size: 4.5rem; 
+}
+
+.my-topic{
+  background-color: #28d82b;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(247, 16, 162, 0.9);
+  text-align: center;
+  font-size: 24px;
+  color: #de129e;
+}
+
+.my-topic:hover{
+ background-color: #fff;
+}
+
+.my-paragraph{
+  background-color: aqua;
+ box-shadow: 0 8px 16px rgba(247, 16, 162, 0.9);
+ padding: 10px;
+ border-radius: 20px;
+}
+
+.my-paragraph:hover{
+background-color: #28d82b;
+}
+
+.card:hover{
+  transition: 0.5s ease-in-out;
+  transform: scale(1.06); 
+  background-color: #de129e;
+  cursor: pointer;
+}
+
+.foot{
+  color: yellow;
+}
+
+.foot1{
+  color: #f05d0e;
+}
+
+.foot2{
+  background-color: rgb(13, 5, 41);
+  border-radius: 20px;
+  padding: 10px 0;
+  box-shadow: 8px 8px 16px darkblue;
+}
+
